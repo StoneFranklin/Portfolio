@@ -1,0 +1,71 @@
+hr {
+  background-color: white;
+}
+.App {
+  text-align: center;
+  color: white;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+.card {
+  width: 18rem;
+  background-color: #303033;
+  box-shadow: 0 5px 8px black;
+  margin: 2rem;
+  transition: transform .2s;
+}
+.card-title {
+  font-weight: bold;
+}
+.card:hover {
+  border: 3px solid white;
+  transform: scale(1.05);
+}
+.nav {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: #0f0f1c;
+  margin-bottom: 1%;
+}
+.header {
+  padding: 1rem;
+  border-bottom: 1px solid white;
+}
+.pic {
+  height: 12rem;
+}
+.d-block {
+  margin: auto;
+  max-width:60%;
+  height:auto;
+}
+.carousel {
+  margin: auto;
+  width: 27rem;
+  padding: 3rem;
+}
+.description {
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid white;
+}
+.single-project {
+  margin-bottom: 10%;
+}
+.btn-primary {
+  margin-top: 1rem;
+  width: 10rem;
+  font-weight: bold;
+}
+.nav-link {
+  border: 1px solid white;
+  border-radius: 2px;
+  margin-left: 1rem;
+}
+.resume {
+  margin-top: 2rem;
+}
+
