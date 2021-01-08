@@ -67,5 +67,9 @@ hr {
 }
 .resume {
   margin-top: 2rem;
+  width: 75%;
+}
+.navbar {
+  background-color: #0f0f1c;
 }
 
