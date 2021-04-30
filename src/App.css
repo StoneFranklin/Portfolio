@@ -36,13 +36,13 @@ hr {
 }
 .d-block {
   margin: auto;
-  max-width:60%;
+  max-width:100%;
   height:auto;
 }
 .carousel {
   margin: auto;
-  width: 27rem;
-  padding: 3rem;
+  width: 40rem;
+  padding: 5rem;
 }
 .description {
   width: 50%;
@@ -61,13 +61,13 @@ hr {
   font-weight: bold;
 }
 .nav-link {
-  border: 1px solid white;
+  /* border: 1px solid white;
   border-radius: 2px;
-  margin-left: 1rem;
+  margin-left: 1rem; */
 }
 .resume {
   margin-top: 2rem;
-  width: 75%;
+  width: 60%;
 }
 .navbar {
   background-color: #0f0f1c;

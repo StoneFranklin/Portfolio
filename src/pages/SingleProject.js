@@ -15,7 +15,7 @@ function SingleProject(props) {
             </div>
         );
     }
-    else if(language === "Web") {
+    else if(language === "Web" && name !== "Mastery") {
         return (
             <div className="single-project">
                 <Project name={name} description={description} carouselImages={carouselImages} github={github}/>

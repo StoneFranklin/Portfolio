@@ -13,16 +13,16 @@ function Carousel(props) {
                 </ol>
                 <div className="carousel-inner"> 
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src={props.carouselImages[0]} alt="Slide" />
+                        <img className="d-block " src={props.carouselImages[0]} alt="Slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={props.carouselImages[1]} alt="Slide" />
+                        <img className="d-block " src={props.carouselImages[1]} alt="Slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={props.carouselImages[2]} alt="Slide" />
+                        <img className="d-block " src={props.carouselImages[2]} alt="Slide" />
                     </div>  
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={props.carouselImages[3]} alt="Slide" />
+                        <img className="d-block " src={props.carouselImages[3]} alt="Slide" />
                     </div>                     
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

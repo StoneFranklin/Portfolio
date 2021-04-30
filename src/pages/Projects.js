@@ -4,7 +4,9 @@ import { projectData } from '../data';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
+const reversedData = projectData.reverse();
 function Projects() {
+    
     return (
         <div> 
             <Helmet>
@@ -16,7 +18,7 @@ function Projects() {
             
             <div className="row justify-content-center">
             {
-                projectData.map((data, key) => {
+                reversedData.map((data, key) => {
                     return (
                         <Link className="single-project card bg-black text-light" 
                             to={{

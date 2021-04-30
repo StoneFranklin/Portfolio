@@ -32,5 +32,29 @@ export const projectData = [
             "Through the development of this app, I learned fundamental skills needed for iOS development, including Swift syntax, SwiftUI, and Core Data.",
         github: "https://github.com/StoneFranklin/Lifts",
         url: "/lifts",
+    },
+    {
+        id: 3,
+        name: "Mastery",
+        language: "Web",
+        image: require("./images/mastery0.png").default,
+        carouselImages: [require("./images/mastery0.png").default, require("./images/mastery1.png").default, require("./images/mastery2.png").default, require("./images/mastery3.png").default],
+        description: "Full-stack web application built using React.js for the front end, and Node.js, Express, and MongoDB for the back end. " + 
+                     "User Authentication with Google is implemented using OAuth 2.0. " +
+                     "This application allows the user to track the time they spend learning or practicing a skill, with the goal of motivating them to continue on their journey to mastery.",
+        github: "https://github.com/StoneFranklin/Mastery",
+        url: "/mastery"
+    },
+    {
+        id: 4,
+        name: "React Universe",
+        language: "Web",
+        image: require("./images/universe0.png").default,
+        carouselImages: [require("./images/universe0.png").default, require("./images/universe1.png").default, require("./images/universe2.png").default, require("./images/universe3.png").default],
+        description: "Web application developed using React.js. " +
+                     "It is a procedurally generated universe with repeatable random stars, planets and moons. ",
+        github: "https://github.com/StoneFranklin/React-Universe",
+        link: "https://stonefranklin.github.io/React-Universe/",
+        url: "/universe"
     }
 ]

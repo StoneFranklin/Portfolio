@@ -13,6 +13,7 @@ function Resume() {
             </div>
             <img src={require("../images/resume0.png").default} alt="Slide" className="resume"></img>
             <img src={require("../images/resume1.png").default} alt="Slide" className="resume"></img>
+            <img src={require("../images/resume2.png").default} alt="Slide" className="resume"></img>
         </div>
     );
 }
