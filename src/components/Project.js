@@ -1,14 +1,10 @@
 import React from 'react';
 import '../App.css';
 import Carousel from './Carousel';
-import { Helmet } from 'react-helmet';
 
 function Project(props) {
     return (
         <>
-            <Helmet>
-                <title>{props.name}</title>
-            </Helmet>
             <h1 className="header">{props.name}</h1>
 
             <Carousel carouselImages={props.carouselImages}/>

@@ -2,16 +2,11 @@ import React from 'react';
 import "../App.css";
 import { projectData } from '../data';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
 
 const reversedData = projectData.reverse();
-function Projects() {
-    
+function Projects() { 
     return (
         <div> 
-            <Helmet>
-                <title>Projects</title>
-            </Helmet>
             <div className="header">
                 <h2>Projects</h2>
             </div>
