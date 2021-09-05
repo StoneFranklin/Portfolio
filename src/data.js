@@ -1,5 +1,31 @@
 export const projectData = [
     {
+        id: 6,
+        name: "Research Project Website",
+        language: "Web",
+        image: require("./images/research-0.png").default,
+        carouselImages: [require("./images/research-0.png").default, require("./images/research-1.png").default, require("./images/research-2.png").default, require("./images/research-3.png").default],
+        description: "Web application developed using React.js. " +
+                     "It is a website for the hyperspectral image segmentation research project that I have been a part of since May 2021. ",
+        github: "https://github.com/StoneFranklin/research-project-website",
+        link: "https://stonefranklin.github.io/research-project-website/",
+        url: "/research"
+    },
+    
+    
+    {
+        id: 2,
+        name: "Lifts",
+        language: "iOS",
+        image: require("./images/lifts0.png").default,
+        carouselImages: [require("./images/lifts1.png").default, require("./images/lifts2.png").default, require("./images/lifts3.png").default, require("./images/lifts4.png").default],
+        description: "An iOS app developed with Swift and SwiftUI. " + 
+            "It allows the user to track their progress on any lift of their choosing. " +
+            "Through the development of this app, I learned fundamental skills needed for iOS development, including Swift syntax, SwiftUI, and Core Data.",
+        github: "https://github.com/StoneFranklin/Lifts",
+        url: "/lifts",
+    },
+    {
         id: 0,
         name: "Dijkstra's Algorithm Visualization",
         language: "Android",
@@ -22,16 +48,27 @@ export const projectData = [
         url: "/gains",
     },
     {
-        id: 2,
-        name: "Lifts",
-        language: "iOS",
-        image: require("./images/lifts0.png").default,
-        carouselImages: [require("./images/lifts1.png").default, require("./images/lifts2.png").default, require("./images/lifts3.png").default, require("./images/lifts4.png").default],
-        description: "An iOS app developed with Swift and SwiftUI. " + 
-            "It allows the user to track their progress on any lift of their choosing. " +
-            "Through the development of this app, I learned fundamental skills needed for iOS development, including Swift syntax, SwiftUI, and Core Data.",
-        github: "https://github.com/StoneFranklin/Lifts",
-        url: "/lifts",
+        id: 5,
+        name: "React 2048",
+        language: "Web",
+        image: require("./images/2048-0.png").default,
+        carouselImages: [require("./images/2048-0.png").default, require("./images/2048-1.png").default, require("./images/2048-2.png").default, require("./images/2048-3.png").default],
+        description: "Web application developed using React.js. " +
+                     "It is a clone of the popular game 2048, with a leaderboard feature which allows player to submit their scores. ",
+        github: "https://github.com/StoneFranklin/react-2048",
+        url: "/2048"
+    },
+    {
+        id: 4,
+        name: "React Universe",
+        language: "Web",
+        image: require("./images/universe0.png").default,
+        carouselImages: [require("./images/universe0.png").default, require("./images/universe1.png").default, require("./images/universe2.png").default, require("./images/universe3.png").default],
+        description: "Web application developed using React.js. " +
+                     "It is a procedurally generated universe with repeatable random stars, planets and moons. ",
+        github: "https://github.com/StoneFranklin/React-Universe",
+        link: "https://stonefranklin.github.io/React-Universe/",
+        url: "/universe"
     },
     {
         id: 3,
@@ -45,16 +82,4 @@ export const projectData = [
         github: "https://github.com/StoneFranklin/Mastery",
         url: "/mastery"
     },
-    {
-        id: 4,
-        name: "React Universe",
-        language: "Web",
-        image: require("./images/universe0.png").default,
-        carouselImages: [require("./images/universe0.png").default, require("./images/universe1.png").default, require("./images/universe2.png").default, require("./images/universe3.png").default],
-        description: "Web application developed using React.js. " +
-                     "It is a procedurally generated universe with repeatable random stars, planets and moons. ",
-        github: "https://github.com/StoneFranklin/React-Universe",
-        link: "https://stonefranklin.github.io/React-Universe/",
-        url: "/universe"
-    }
 ]

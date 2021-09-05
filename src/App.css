@@ -9,8 +9,8 @@ hr {
 }
 .card {
   width: 18rem;
-  background-color: #303033;
-  box-shadow: 0 5px 8px black;
+  background-color: #242424;
+  border: 3px solid black;
   margin: 2rem;
   transition: transform .2s;
 }
@@ -18,7 +18,7 @@ hr {
   font-weight: bold;
 }
 .card:hover {
-  border: 3px solid white;
+  border: 3px solid rgb(0, 247, 255);
   transform: scale(1.05);
 }
 .nav {
@@ -52,24 +52,30 @@ hr {
   margin-bottom: 1rem;
   border: 1px solid white;
 }
-.single-project {
-  margin-bottom: 10%;
-}
 .btn-primary {
   margin-top: 1rem;
   width: 10rem;
   font-weight: bold;
 }
-.nav-link {
-  /* border: 1px solid white;
-  border-radius: 2px;
-  margin-left: 1rem; */
-}
 .resume {
   margin-top: 2rem;
+}
+.resume-block {
   width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: left;
+}
+.bold {
+  font-weight: bold;
 }
 .navbar {
   background-color: #0f0f1c;
+}
+#name {
+  font-size: 20px;
 }
 
